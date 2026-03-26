@@ -1,0 +1,74 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Output files (PDFs)
+redacted_*.pdf
+*_redacted.pdf
+output/
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# OS specific
+.DS_Store
+Thumbs.db
+.directory
+.AppleDouble
+.LSOverride
+
+# Sample/Test PDFs (optional - uncomment if you don't want to track sample PDFs)
+# sample_*.pdf
+# test_*.pdf
